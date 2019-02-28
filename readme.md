@@ -19,4 +19,6 @@ In order to have the the system running in your local machine follow the followi
 <h2>ScreenShots</h2> </br>
 
 
-   <h3>Home</h3></br><img src="../master/public/img/post_all.png?raw=true" width="350" height="400" /> </br>
+   <h3>Home</h3></br><img src="../master/public/img/post_all.png?raw=true"  /> </br>
+    <h3>Post Details</h3></br><img src="../master/public/img/post_edit.png?raw=true"  /> </br>
+     <h3>User Account</h3></br><img src="../master/public/img/account.png?raw=true"  /> </br>
