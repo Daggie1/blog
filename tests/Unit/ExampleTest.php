@@ -14,6 +14,19 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $this->assertTrue(true);
+        $response = $this->post('/insert',[
+            'title'=>$title='just',
+            'description'=>$description='new desc',
+
+
+
+        ]);
+
+        $response->assertStatus(302);
+        $this->assertDatabaseHas('posts',[
+            'title'=>$title
+            ,'description'=>$description
+
+        ]);
     }
 }
