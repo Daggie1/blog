@@ -1,5 +1,5 @@
 <h1>For Bloggers </h1>
-[![Build Status](https://travis-ci.com/Daggie1/blog.svg?branch=master)](https://travis-ci.com/Daggie1/blog) </br>
+[![Build Status](https://travis-ci.com/Daggie1/blog.svg?branch=master)](https://travis-ci.com/Daggie1/blog)
 
 <h5>For bloggers</h5> is a full featured laravel blog project developed for learning purposes </br>
 features include:</br>
