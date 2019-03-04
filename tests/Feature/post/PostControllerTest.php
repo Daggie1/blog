@@ -15,7 +15,7 @@ class PostControllerTest extends TestCase
      */
     public function can_create_a_post()
     {
-     $response=$this->get('/add_post');
-        $response->assertStatus(201);
+     $response=$this->get('/');
+        $response->assertStatus(302);
     }
 }
