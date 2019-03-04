@@ -2,6 +2,8 @@
 
 namespace Tests\Feature;
 
+use Faker\Factory;
+use Illuminate\Support\Facades\Auth;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -12,10 +14,23 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
+    public function test_can_create_post()
     {
-        $response = $this->get('/');
 
-        $response->assertStatus(200);
+
+        $response = $this->post('/insert',[
+            'title'=>$title='just',
+            'description'=>$description='new desc',
+
+
+
+        ]);
+
+        $response->assertStatus(302);
+        $this->assertDatabaseHas('posts',[
+            'title'=>$title
+        ,'description'=>$description
+
+        ]);
     }
 }
