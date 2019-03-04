@@ -1,4 +1,5 @@
-<h1>For Bloggers</h1> </br>
+<h1>For Bloggers </h1>
+[![Build Status](https://travis-ci.com/Daggie1/blog.svg?branch=master)](https://travis-ci.com/Daggie1/blog) </br>
 
 <h5>For bloggers</h5> is a full featured laravel blog project developed for learning purposes </br>
 features include:</br>
@@ -23,4 +24,4 @@ In order to have the the system running in your local machine follow the followi
     <h3>Post Details</h3></br><img src="../master/public/img/post_edit.png?raw=true"  /> </br>
      <h3>User Account</h3></br><img src="../master/public/img/account.png?raw=true"  /> </br>
      
-[![Build Status](https://travis-ci.com/Daggie1/blog.svg?branch=master)](https://travis-ci.com/Daggie1/blog)
+
