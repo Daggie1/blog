@@ -11,4 +11,4 @@ before_script:
 
 >>>>>>> ab7645d5cb71b3020aa8e61600e7aaff1cae6ce8
 script:
-  - vendor/bin/phpunit tests/Fearure/ExampleTest.php
+  - phpunit
